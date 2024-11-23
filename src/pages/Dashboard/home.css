@@ -1,0 +1,37 @@
+.table-responsive {
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
+  }
+  
+  .table th, .table td {
+    white-space: nowrap; /* Prevents text from wrapping within table cells */
+  }
+  
+  @media (max-width: 576px) {
+    .table th, .table td {
+      font-size: 14px; /* Adjust font size for better readability */
+      padding: 8px; /* Adjust padding */
+    }
+  
+    .table td {
+      white-space: normal; /* Allow text to wrap within cells */
+    }
+  
+    .btn {
+      font-size: 12px; /* Reduce button font size */
+      padding: 4px 8px; /* Adjust button padding */
+    }
+  
+    .btn-danger, .btn-warning {
+      margin-bottom: 5px; /* Add margin between stacked buttons */
+    }
+  
+    .actions {
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically */
+    }
+  
+    .actions .btn {
+      margin-bottom: 5px; /* Space out buttons */
+    }
+  }
+  

@@ -1,0 +1,16 @@
+/* Ensure the table wraps on smaller screens */
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  /* Optional: You can add additional padding or style changes for small screens */
+  @media (max-width: 576px) {
+    .table {
+      font-size: 0.875rem; /* Make the table text slightly smaller */
+    }
+  
+    .table th, .table td {
+      white-space: nowrap; /* Prevent the text from wrapping */
+    }
+  }
+  
